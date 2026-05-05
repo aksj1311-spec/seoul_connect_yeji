@@ -19,30 +19,50 @@ const DUMMY_ACTIVITIES = {
       location:'망원동 카페', distance:'2.5km', isFree:false,
       category:'독서', tags:['#독서','#소규모','#주말'],
       description:'조용히 각자 책을 읽고 짧게 감상을 나누는 모임이야. 부담 없이 참여하기 좋아.' },
+    { id:'b2', title:'퇴근길 북토크', datetime:'수 19:30',
+      location:'합정 독립서점', distance:'3.0km', isFree:true,
+      category:'독서', tags:['#북토크','#퇴근길','#무료'],
+      description:'작가님과 함께하는 가벼운 북토크 행사야. 듣기만 해도 좋아서 혼자 가도 편안해.' },
   ],
   '가까운 곳': [
     { id:'c1', title:'동네 한바퀴 걷기', datetime:'내일 19:00',
       location:'연남동 골목', distance:'0.3km', isFree:true,
       category:'산책', tags:['#가까운곳','#가볍게','#저녁'],
-      description:'집 근처에서 가볍게 걷는 모임이야.' }
+      description:'집 근처에서 가볍게 걷는 모임이야.' },
+    { id:'c2', title:'동네 도서관 탐방', datetime:'토 14:00',
+      location:'성산동 구립도서관', distance:'0.5km', isFree:true,
+      category:'탐방', tags:['#가까운곳','#도서관','#조용한'],
+      description:'가까운 도서관에서 책도 읽고 휴식도 취하는 활동이야.' }
   ],
   '무료 활동': [
     { id:'d1', title:'무료 전시 관람', datetime:'금 15:00',
       location:'서울시립미술관', distance:'4.0km', isFree:true,
       category:'문화', tags:['#무료','#전시','#조용한'],
-      description:'무료로 진행되는 특별 전시 관람이야.' }
+      description:'무료로 진행되는 특별 전시 관람이야.' },
+    { id:'d2', title:'한강 야외 요가', datetime:'일 17:00',
+      location:'망원 한강공원', distance:'1.5km', isFree:true,
+      category:'운동', tags:['#무료','#요가','#야외'],
+      description:'탁 트인 한강에서 진행되는 무료 요가 클래스야. 초보자도 쉽게 따라할 수 있어.' }
   ],
   '혼자 가도 괜찮은 활동': [
     { id:'e1', title:'1인 가구 요리 교실', datetime:'수 18:30',
       location:'마포 요리공방', distance:'1.5km', isFree:false,
       category:'취미', tags:['#혼자','#요리','#실용적'],
-      description:'혼자 오시는 분들이 대부분이라 어색하지 않게 요리를 배울 수 있어.' }
+      description:'혼자 오시는 분들이 대부분이라 어색하지 않게 요리를 배울 수 있어.' },
+    { id:'e2', title:'독립영화 상영회', datetime:'금 20:00',
+      location:'서교동 인디스페이스', distance:'2.0km', isFree:false,
+      category:'문화', tags:['#혼자','#영화','#감성'],
+      description:'조용히 영화에 집중할 수 있는 분위기라 혼자 관람하기에 최적화되어 있어.' }
   ],
   '부담 적은 것부터': [
     { id:'f1', title:'한강 멍때리기', datetime:'일 16:00',
       location:'망원 한강공원', distance:'1.0km', isFree:true,
       category:'휴식', tags:['#부담적음','#휴식','#야외'],
-      description:'그냥 앉아서 쉬는 모임이야. 아무것도 안 해도 괜찮아.' }
+      description:'그냥 앉아서 쉬는 모임이야. 아무것도 안 해도 괜찮아.' },
+    { id:'f2', title:'동네 카페 필사 모임', datetime:'목 19:30',
+      location:'상수동 카페', distance:'1.8km', isFree:false,
+      category:'취미', tags:['#부담적음','#필사','#조용한'],
+      description:'각자 좋아하는 문장을 노트에 적는 모임이야. 대화가 필수가 아니라 부담이 없어.' }
   ]
 };
 
